@@ -1,1 +1,106 @@
-<mxfile host="www.draw.io" modified="2019-11-18T05:53:42.031Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" version="12.2.6" etag="DL9xDrbRRWdtyEED6DAy" type="github"><diagram id="G1XztVjs8dwRP4olNS-_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-11-18T07:01:45.805Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="CKQcWmJNCO0hQcyzNqcB" version="12.2.6" type="github" pages="1">
+  <diagram id="G1XztVjs8dwRP4olNS-_" name="Page-1">
+    <mxGraphModel dx="1038" dy="1717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-24" value="" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-1100" width="240" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-26" value="" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-1100" width="483" height="260" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHetAt4zrVZaF0G-BH8J-28" target="jHetAt4zrVZaF0G-BH8J-29">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-28" value="Record &lt;b&gt;64ms&lt;/b&gt; Sample" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-1070" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHetAt4zrVZaF0G-BH8J-29" target="jHetAt4zrVZaF0G-BH8J-31">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-29" value="Filter Signal with Hamming Window" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="377" y="-1070" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jHetAt4zrVZaF0G-BH8J-31" target="jHetAt4zrVZaF0G-BH8J-35">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-31" value="&lt;b&gt;FFT Kernel&lt;/b&gt; to Find Square of Magnitude" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-1070" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jHetAt4zrVZaF0G-BH8J-35" target="jHetAt4zrVZaF0G-BH8J-37">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-35" value="Take First K point to Get &lt;b&gt;Power Spectral Density&lt;/b&gt; (PSD)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="663" y="-1070" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jHetAt4zrVZaF0G-BH8J-37" target="jHetAt4zrVZaF0G-BH8J-39">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-37" value="Design and Apply &lt;b&gt;Filter Bank&lt;/b&gt; on PSD&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;getLambda()&lt;br&gt;getFiltered()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="663" y="-930" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jHetAt4zrVZaF0G-BH8J-39" target="jHetAt4zrVZaF0G-BH8J-40">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-39" value="Find &lt;b&gt;Energy&lt;/b&gt; of Filtered Signal&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;getEnergy()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-930" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-40" value="Find &lt;b&gt;MFCC&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#ff3333&quot;&gt;getMFCC()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="377" y="-930" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-51" value="" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-960" width="240" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-50" value="Train Neural Network in &lt;b&gt;MATLAB&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-930" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="jHetAt4zrVZaF0G-BH8J-40" target="jHetAt4zrVZaF0G-BH8J-50">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-53" value="&lt;i&gt;&lt;b&gt;Framing&lt;/b&gt;&lt;/i&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-1100" width="60" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-54" value="&lt;b&gt;&lt;i&gt;Feature Extraction&lt;/i&gt;&lt;/b&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="511.5" y="-1100" width="120" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-55" value="&lt;b&gt;&lt;i&gt;Neural Network Training&lt;/i&gt;&lt;/b&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-960" width="150" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-56" value="" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-820" width="240" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-57" value="Implement Neural Network on &lt;b&gt;LCDK&lt;/b&gt; &lt;b&gt;board&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="100" y="-790" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-58" value="&lt;b&gt;&lt;i&gt;Neural Network Implementation&lt;/i&gt;&lt;/b&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="70" y="-820" width="200" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="jHetAt4zrVZaF0G-BH8J-50" target="jHetAt4zrVZaF0G-BH8J-57">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-62" value="" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;dashed=1;dashPattern=1 4;" vertex="1" parent="1">
+          <mxGeometry x="331" y="-820" width="481" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jHetAt4zrVZaF0G-BH8J-63" target="jHetAt4zrVZaF0G-BH8J-69">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-63" value="Test Neural Network" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="377" y="-790" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jHetAt4zrVZaF0G-BH8J-40" target="jHetAt4zrVZaF0G-BH8J-63">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="jHetAt4zrVZaF0G-BH8J-57" target="jHetAt4zrVZaF0G-BH8J-63">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-68" value="&lt;i&gt;&lt;b&gt;Neural Network Testing&lt;/b&gt;&lt;/i&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="496.5" y="-820" width="150" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-69" value="&lt;b&gt;Output Vector&lt;/b&gt;&lt;br&gt;Indicating probablility of each phthong" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="663" y="-790" width="120" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
