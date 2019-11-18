@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-18T07:06:03.821Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="q7xh46xe2C1ug-Jz7XmB" version="12.2.6" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-18T07:07:13.145Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36" etag="xzi6hOLTxaKQWVFS1yq1" version="12.2.6" type="github" pages="1">
   <diagram id="G1XztVjs8dwRP4olNS-_" name="Page-1">
     <mxGraphModel dx="1865" dy="1717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -105,6 +105,9 @@
         </mxCell>
         <mxCell id="jHetAt4zrVZaF0G-BH8J-74" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Flowchart of Vowel Recognition Project&lt;/font&gt;&lt;/b&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
           <mxGeometry x="273" y="-1140" width="280" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="jHetAt4zrVZaF0G-BH8J-75" value="&lt;i&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;Picture by Y. Pan&lt;/font&gt;&lt;/i&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
+          <mxGeometry x="678" y="-670" width="90" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
